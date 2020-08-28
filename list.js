@@ -38,10 +38,10 @@ axios.get("http://localhost:3000/list").then((respone) => {
         <td>${time}</td>
         <td class="isilist" id="isiList${id}">${list}</td>
         <td>
-            <button class="btn btn-danger" onclick="deleteList(${data.id})" type="submit" >
+            <button class="btn btn-danger" onclick="deleteList(${data.id})" type="submit" title="Delete list">
                 <i class="far fa-trash-alt fa-lg"></i>
             </button> &nbsp;
-            <button class="btn btn-secondary" onclick="updateList(${data.id})">
+            <button class="btn btn-secondary" onclick="updateList(${data.id})" title="Edit list">
                 <i class="fas fa-pencil-alt fa-lg"></i>
             </button>
         </td>
