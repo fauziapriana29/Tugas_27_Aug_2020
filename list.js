@@ -11,7 +11,7 @@ axios.get("http://localhost:3000/list").then((respone) => {
         <th scope="row">${id + 1} .</th>
         <td>${date}</td>
         <td>${time}</td>
-        <td class="isilist">${list}</td>
+        <td class="isilist" id="isiList${id}">${list}</td>
         <td>
             <button class="btn btn-danger" onclick="deleteList(${data.id})" type="submit" >
                 <i class="far fa-trash-alt fa-lg"></i>
@@ -29,6 +29,11 @@ axios.get("http://localhost:3000/list").then((respone) => {
 .catch((error) => {
     console.log(error)
 })
+
+// const checkList = (id) => {
+//     const isiList = document.getElementById(`isiList${id}`)
+//     isiList.style.textDecoration = "underLine"
+// }
 
 const deleteList = (id) => {
     let confirm = window.confirm("Are You sure to Delete this List ?")

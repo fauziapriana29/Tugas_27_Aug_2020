@@ -88,7 +88,7 @@ body {
     width: 100px;
 }
 .table .list {
-    width: 650px;
+    width: 665px;
 }
 #listData {
     
@@ -100,4 +100,11 @@ body {
     font-family: 'Schoolbell', cursive;
     font-size: 30px;
     line-height: 32px;
+}
+/* .check {
+    text-decoration: line-through;
+    text-decoration-color: black;
+} */
+.action {
+    text-align: center;
 }
