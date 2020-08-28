@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@700&family=Lobster+Two:ital@1&family=Pacifico&family=Schoolbell&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&family=Kalam:wght@700&family=Lobster+Two:ital@1&family=Pacifico&family=Schoolbell&display=swap');
+body {
+    background-image: url(./bg.jpg);
+    background-size: cover;
+}
+.title{
+    margin-top: 30px;
+}
+.title h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 60px;
+    font-weight: bold;
+    -webkit-text-fill-color: black;
+    -webkit-text-stroke-color: green;
+    -webkit-text-stroke-width: 3px;
+    text-align: center;
+}
+.container {
+    background-color: rgba(0, 0, 0, 0.26);
+    border-radius: 10px;
+}
+.input-group {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    padding-top: 30px;
+}
+.form {
+    background-color: rgba(255, 255, 255, 0.466);
+}
+.form-control {
+    height: 50px;
+}
+.formTime:active {
+    outline: none;
+}
+.spantext {
+    background-color: rgba(4, 149, 48, 0.712);
+    color: white;
+    font-weight: bold;
+    border: none;
+}
+.inpdate {
+    width: 150px;
+    border: none;
+    border-right: 1px solid rgb(115, 127, 136);
+}
+.inplist {
+    font-size: 30px;
+    border: none;
+}
+.inplist::placeholder {
+    font-family: 'Schoolbell', cursive;
+    font-weight: bold;
+    padding-left: 20px;
+}
+.inplist:focus {
+    background-color:rgba(255, 255, 255, 0.589);
+    color: black;
+}
+.inplist:focus::placeholder {
+    color: transparent;
+}
+.listtitle {
+    padding-top: 5px;
+    margin-bottom: -3px;
+    font-size: 70px;
+    font-family: 'Gochi Hand', cursive;
+    -webkit-text-fill-color: green;
+    -webkit-text-stroke-color: rgb(163, 163, 9);
+    -webkit-text-stroke-width: 3px;
+}
+.thead-dark {
+    font-size: 20px;
+}
+.table tr {
+    color: white
+}
+.table .no {
+    width: 50px;
+}
+.table .date {
+    width: 150px;
+}
+.table .time {
+    width: 100px;
+}
+.table .list {
+    width: 650px;
+}
+#listData {
+    
+    font-size: 22px;
+    font-weight: bold;
+}
+.isilist {
+    color: rgb(207, 207, 28);
+    font-family: 'Schoolbell', cursive;
+    font-size: 30px;
+    line-height: 32px;
+}
