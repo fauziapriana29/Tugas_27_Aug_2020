@@ -56,8 +56,14 @@ axios.get("http://localhost:3000/list").then((respone) => {
 })
 
 // const checkList = (id) => {
-//     const isiList = document.getElementById(`isiList${id}`)
-//     isiList.style.textDecoration = "underLine"
+//     const findData = data.find(data => {
+//         return data.id === id
+//     })
+//     if (findData) {
+//         const isiList = document.getElementById(`isiList${id}`)
+//         $(isiList).addClass('lineThrough')
+//     }
+    
 // }
 
 const deleteList = (id) => {

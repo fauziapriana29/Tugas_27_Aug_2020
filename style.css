@@ -12,8 +12,8 @@ body {
     font-family: 'Pacifico', cursive;
     font-size: 60px;
     font-weight: bold;
-    -webkit-text-fill-color: black;
-    -webkit-text-stroke-color: green;
+    -webkit-text-fill-color: rgba(0, 0, 0, 0.692);
+    -webkit-text-stroke-color: rgb(0, 184, 0);
     -webkit-text-stroke-width: 3px;
     text-align: center;
 }
